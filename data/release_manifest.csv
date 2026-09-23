@@ -1,0 +1,7 @@
+file,study,analysis_unit,expected_records,status_now,final_requirement
+study1_writer_level.csv,1,writer-message,4608,not_uploaded,verified de-identified empirical file
+study1_rater_level.csv,1,rater-message,REALIZED_COUNT,not_uploaded,verify realized rater count and escalation
+study2_decision_level.csv,2,evaluator-message decision,3456,not_uploaded,verify fixed-text provenance allocation
+study3_writer_level.csv,3,writer-message,3456,not_uploaded,verify writer randomization and baseline capacity
+study3_decision_level.csv,3,evaluator-message decision,27648,not_uploaded,verify crossed allocation topology and fitted-model basis
+study4_decision_level.csv,4,evaluator-message decision,4608,not_uploaded,verify policy timing and message matching
