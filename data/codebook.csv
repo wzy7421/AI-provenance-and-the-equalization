@@ -1,0 +1,54 @@
+study,file,variable,type,allowed_or_scale,description
+1,study1_writer_level.csv,writer_id,string,opaque unique ID,De-identified writer identifier
+1,study1_writer_level.csv,country,categorical,US|UK,Study country
+1,study1_writer_level.csv,context,categorical,consumer|workplace,Institutional claim context
+1,study1_writer_level.csv,vignette_id,string,opaque ID,Vignette identifier
+1,study1_writer_level.csv,message_id,string,opaque unique ID,Submitted focal claim identifier
+1,study1_writer_level.csv,assignment_ai,categorical,unaided|ai_assisted,Randomized AI-access assignment
+1,study1_writer_level.csv,baseline_capacity_C,numeric,continuous observed composite,Pre-treatment baseline advocacy capacity
+1,study1_writer_level.csv,self_advocacy_efficacy,numeric,document final scale,Companion self-efficacy construct; not part of primary C composite
+1,study1_writer_level.csv,advocacy_quality_z,numeric,standardized quality units,Message-level Advocacy Quality Index
+1,study1_writer_level.csv,unsupported_assertion,binary,0|1,Material unsupported-assertion safety indicator
+1,study1_rater_level.csv,rater_id,string,opaque ID,Condition-blinded quality rater
+1,study1_rater_level.csv,message_id,string,opaque ID,Claim being rated
+1,study1_rater_level.csv,actionability,numeric,1-7,Quality dimension
+1,study1_rater_level.csv,argument_quality,numeric,1-7,Quality dimension
+1,study1_rater_level.csv,clarity,numeric,1-7,Quality dimension
+1,study1_rater_level.csv,coherence,numeric,1-7,Quality dimension
+1,study1_rater_level.csv,factual_completeness,numeric,1-7,Quality dimension
+1,study1_rater_level.csv,specificity,numeric,1-7,Quality dimension
+2,study2_decision_level.csv,evaluator_id,string,opaque unique ID,De-identified evaluator identifier
+2,study2_decision_level.csv,message_id,string,opaque ID,Fixed claim stimulus identifier
+2,study2_decision_level.csv,country,categorical,US|UK,Study country
+2,study2_decision_level.csv,context,categorical,consumer|workplace,Decision context
+2,study2_decision_level.csv,provenance,categorical,hidden|visible,Randomized displayed AI provenance
+2,study2_decision_level.csv,support_0_100,numeric,0-100,Incentivized gatekeeper allocation
+2,study2_decision_level.csv,approval,binary,0|1,Secondary behavioural approval outcome
+2,study2_decision_level.csv,control_responsibility,numeric,document final scale,Post-decision attribution measure
+2,study2_decision_level.csv,legitimacy,numeric,document final scale,Post-decision legitimacy measure
+3,study3_writer_level.csv,writer_id,string,opaque unique ID,De-identified Study 3 writer
+3,study3_writer_level.csv,message_id,string,opaque unique ID,Writer-message item; one focal message per retained writer
+3,study3_writer_level.csv,baseline_capacity_C,numeric,continuous observed composite,Pre-treatment baseline advocacy capacity
+3,study3_writer_level.csv,production_assignment,categorical,unaided|ai_assisted,Randomized writer assignment
+3,study3_writer_level.csv,country,categorical,US|UK,Study country
+3,study3_writer_level.csv,context,categorical,consumer|workplace,Claim context
+3,study3_decision_level.csv,decision_id,string,opaque unique ID,Evaluator-message decision identifier
+3,study3_decision_level.csv,evaluator_id,string,opaque ID,Evaluator identifier
+3,study3_decision_level.csv,writer_id,string,opaque ID,Writer identifier
+3,study3_decision_level.csv,message_id,string,opaque ID,Message identifier
+3,study3_decision_level.csv,vignette_id,string,opaque ID,Vignette identifier
+3,study3_decision_level.csv,baseline_capacity_C,numeric,continuous observed composite,Writer baseline capacity merged for modelling
+3,study3_decision_level.csv,production_assignment,categorical,unaided|ai_assisted,Writer production assignment
+3,study3_decision_level.csv,provenance_policy,categorical,baseline|staged|visible,Reception regime
+3,study3_decision_level.csv,approval,binary,0|1,Primary evaluator decision
+4,study4_decision_level.csv,decision_id,string,opaque unique ID,Evaluator-message decision identifier
+4,study4_decision_level.csv,evaluator_id,string,opaque unique ID,Evaluator identifier
+4,study4_decision_level.csv,message_id,string,opaque ID,Fixed claim stimulus identifier
+4,study4_decision_level.csv,country,categorical,US|UK,Study country
+4,study4_decision_level.csv,context,categorical,consumer|workplace,Decision context
+4,study4_decision_level.csv,policy_arm,categorical,generic|neutral|attestation|staged,Randomized provenance workflow
+4,study4_decision_level.csv,support_0_100,numeric,0-100,Gatekeeper support outcome
+4,study4_decision_level.csv,approval,binary,0|1,Secondary approval outcome
+4,study4_decision_level.csv,merit_accuracy,binary,0|1,Agreement with provenance-masked benchmark
+4,study4_decision_level.csv,decision_time_s,numeric,seconds,Decision time
+4,study4_decision_level.csv,policy_acceptability,numeric,document final scale,Policy acceptability measure
