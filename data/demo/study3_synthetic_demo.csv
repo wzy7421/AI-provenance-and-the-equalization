@@ -1,0 +1,17 @@
+synthetic_demo,decision_id,evaluator_id,writer_id,message_id,vignette_id,country,context,baseline_capacity_C,production_assignment,provenance_policy,approval
+1,S3D001,S3E001,S3W001,S3M001,V01,US,consumer,-1.0,unaided,baseline,0
+1,S3D002,S3E002,S3W001,S3M001,V01,US,consumer,-1.0,unaided,baseline,0
+1,S3D003,S3E003,S3W002,S3M002,V02,UK,workplace,1.0,unaided,baseline,1
+1,S3D004,S3E004,S3W002,S3M002,V02,UK,workplace,1.0,unaided,baseline,1
+1,S3D005,S3E005,S3W003,S3M003,V03,US,consumer,-1.0,ai_assisted,staged,1
+1,S3D006,S3E006,S3W003,S3M003,V03,US,consumer,-1.0,ai_assisted,staged,1
+1,S3D007,S3E007,S3W003,S3M003,V03,US,consumer,-1.0,ai_assisted,visible,0
+1,S3D008,S3E008,S3W003,S3M003,V03,US,consumer,-1.0,ai_assisted,visible,1
+1,S3D009,S3E009,S3W004,S3M004,V04,UK,workplace,1.0,ai_assisted,staged,1
+1,S3D010,S3E010,S3W004,S3M004,V04,UK,workplace,1.0,ai_assisted,staged,1
+1,S3D011,S3E011,S3W004,S3M004,V04,UK,workplace,1.0,ai_assisted,visible,1
+1,S3D012,S3E012,S3W004,S3M004,V04,UK,workplace,1.0,ai_assisted,visible,1
+1,S3D013,S3E013,S3W005,S3M005,V05,US,workplace,0.0,ai_assisted,staged,1
+1,S3D014,S3E014,S3W005,S3M005,V05,US,workplace,0.0,ai_assisted,visible,0
+1,S3D015,S3E015,S3W006,S3M006,V06,UK,consumer,0.0,unaided,baseline,0
+1,S3D016,S3E016,S3W006,S3M006,V06,UK,consumer,0.0,unaided,baseline,1
