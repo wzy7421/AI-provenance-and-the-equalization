@@ -1,0 +1,13 @@
+synthetic_demo,writer_id,country,context,vignette_id,assignment_ai,baseline_capacity_C,self_advocacy_efficacy,message_id,advocacy_quality_z,unsupported_assertion
+1,S1W001,US,consumer,V01,unaided,-1.0,3.1,S1M001,-0.68,0
+1,S1W002,US,consumer,V01,ai_assisted,-1.0,3.0,S1M002,-0.12,0
+1,S1W003,UK,consumer,V02,unaided,-1.0,3.4,S1M003,-0.59,0
+1,S1W004,UK,consumer,V02,ai_assisted,-1.0,3.5,S1M004,-0.05,0
+1,S1W005,US,workplace,V03,unaided,0.0,4.1,S1M005,-0.12,0
+1,S1W006,US,workplace,V03,ai_assisted,0.0,4.2,S1M006,0.22,0
+1,S1W007,UK,workplace,V04,unaided,0.0,4.4,S1M007,-0.02,1
+1,S1W008,UK,workplace,V04,ai_assisted,0.0,4.3,S1M008,0.27,0
+1,S1W009,US,consumer,V05,unaided,1.0,5.1,S1M009,0.25,0
+1,S1W010,US,consumer,V05,ai_assisted,1.0,5.0,S1M010,0.43,0
+1,S1W011,UK,workplace,V06,unaided,1.0,5.3,S1M011,0.30,0
+1,S1W012,UK,workplace,V06,ai_assisted,1.0,5.2,S1M012,0.48,0
